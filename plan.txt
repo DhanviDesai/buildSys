@@ -1,0 +1,4 @@
+Instead of generating a file with all java files in it, we can compile classes as we come across java files.
+For example, while traversing we would come across DepTrial, we would try to compile that, but it needs Appmodule hence we would have to go and compile that class first.
+The problem with this approach is that, we would have to understand the complexity of the project.
+There should be better ways to do this.
